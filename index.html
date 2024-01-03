@@ -6,23 +6,22 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <!-- <script src="https://kit.fontawesome.com/2157df5358.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="https://kit.fontawesome.com/2157df5358.js" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2157df5358.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/2157df5358.js" crossorigin="anonymous"> -->
 </head>
 <body>
     
     <nav>
        <div class="flex flex-col md:flex-row md:justify-between py-4 mx-4 md:mx-4">
-          <div class="flex  gap-4 mx-auto md:mx-0">
+          <div class="flex items-center gap-8 mx-auto md:mx-0">
              <div><p>Case Mangement</p></div>
-             <div>menu</div>
-             <i class="fa-regular fa-bars"></i>
-             <div>search</div>
+             <div><a href=""><i class="fa-solid fa-bars"></i></a></div>
+             <div><a href=""><i class="fa-solid fa-magnifying-glass bg-slate-100 p-2 rounded-full"></i></a></div>
           </div>
             
           <div class="flex gap-4 w-fit mx-auto md:mx-0 mt-4 md:mt-0">
               <img class="w-6 rounded-full" src="./person.jpg" alt="">
-              <p>person</p>
+              <p>person <span><i class="fa-solid fa-angle-down text-xs"></i></span></p>
           </div>
        </div>
     </nav> 
@@ -36,8 +35,10 @@
                 <!-- 1st -->
                 <div class="collapse">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                       <p>sidebar 1</p>
+                      <i class="fa-solid fa-angle-down text-sm"></i>
+                      
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                       <p>submenu 1.1</p>
@@ -50,8 +51,9 @@
                   <!-- 2nd -->
                   <div class="collapse ">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                       <p>sidebar 2</p>
+                      <i class="fa-solid fa-angle-down text-sm"></i>
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                         <p>submenu 2.1</p>
@@ -63,8 +65,9 @@
                   <!-- 3rd -->
                   <div class="collapse ">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                         <p>sidebar 3</p>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                       <p>submenu 3.1</p>
@@ -73,8 +76,9 @@
                   <!-- 4th -->
                   <div class="collapse ">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                         <p>sidebar 4</p>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                       <p>submenu 4.1</p>
@@ -83,8 +87,9 @@
                   <!-- 5th -->
                   <div class="collapse ">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                         <p>sidebar 5</p>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                       <p>submenu 5.1</p>
@@ -93,8 +98,9 @@
                   <!-- 6th -->
                   <div class="collapse ">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                         <p>sidebar 6</p>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                       <p>submenu 6.1</p>
@@ -103,8 +109,9 @@
                   <!-- 7th -->
                   <div class="collapse ">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                         <p>sidebar 7</p>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                       <p>submenu 7.1</p>
@@ -113,8 +120,9 @@
                   <!-- 8th -->
                   <div class="collapse ">
                     <input type="checkbox" /> 
-                    <div class="collapse-title text-white font-bold">
+                    <div class="collapse-title text-white font-bold flex justify-between items-center">
                         <p>sidebar 8</p>
+                        <i class="fa-solid fa-angle-down text-sm"></i>
                     </div>
                     <div class="collapse-content text-white pl-8"> 
                       <p>submenu 8.1</p>
